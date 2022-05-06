@@ -65,7 +65,7 @@ body {
 
 .nav__icon {
   width: 20px;
-  background: url('/images/icon-arrow-down.svg') no-repeat center;
+  background: url('../images/icon-arrow-down.svg') no-repeat center;
   background-size: 12px;
   aspect-ratio: 1;
   transition: transform 0.4s ease-in;
@@ -266,7 +266,7 @@ body {
     z-index: 3;
     top: 26px;
     right: 20px;
-    background: url('/images/icon-menu.svg') no-repeat center;
+    background: url('../images/icon-menu.svg') no-repeat center;
     width: 30px;
     aspect-ratio: 1;
   }
@@ -307,7 +307,7 @@ body {
   }
 
   .sidebar-active + .nav__menu {
-    background: url('/images/icon-close-menu.svg') no-repeat center;
+    background: url('../images/icon-close-menu.svg') no-repeat center;
   }
 
   .layer--active {
