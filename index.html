@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- Navbar -->
+      <nav class="nav">
+        <img class="nav__logo" src="./images/logo.svg" alt="Logo" />
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Features
+              <div class="nav__icon"></div>
+            </a>
+            <div class="dropdown-container">
+              <div class="dropdown">
+                <div class="dropdown__item">
+                  <img src="./images/icon-todo.svg" alt="TodoList" />
+                  <a href="#" class="dropdown__link">Todo List</a>
+                </div>
+                <div class="dropdown__item">
+                  <img src="./images/icon-calendar.svg" alt="Calendar" />
+                  <a href="#" class="dropdown__link">Calendar</a>
+                </div>
+                <div class="dropdown__item">
+                  <img src="./images/icon-reminders.svg" alt="Reminders" />
+                  <a href="#" class="dropdown__link">Reminders</a>
+                </div>
+                <div class="dropdown__item">
+                  <img src="./images/icon-planning.svg" alt="Planning" />
+                  <a href="#" class="dropdown__link">Planning</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--company">
+              Company
+              <div class="nav__icon nav__icon--company"></div>
+            </a>
+            <div class="dropdown-container">
+              <div class="dropdown dropdown--company">
+                <div class="dropdown__item">
+                  <a href="#" class="dropdown__link">History</a>
+                </div>
+                <div class="dropdown__item">
+                  <a href="#" class="dropdown__link">Our Team</a>
+                </div>
+                <div class="dropdown__item">
+                  <a href="#" class="dropdown__link">Blog</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">Careers</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">About</a>
+          </li>
+
+          <!-- Sidebar Icons -->
+          <div class="sidebar-actions">
+            <button class="button button--login" type="button">Login</button>
+            <button class="button button--register" type="button">
+              Register
+            </button>
+          </div>
+        </ul>
+
+        <!-- Menu Icon -->
+        <button class="nav__menu" type="button" title="NavMenu Button"></button>
+      </nav>
+
+      <!-- Login and Register Buttons -->
+      <div class="nav__actions">
+        <button class="button button--login" type="button">Login</button>
+        <button class="button button--register" type="button">Register</button>
+      </div>
+    </header>
+
+    <div class="layer"></div>
+
+    <!-- Main Content -->
+    <main>
+      <section class="grid">
+        <article class="article">
+          <h1 class="article__title">Make remote work</h1>
+          <p class="article__paragraph">
+            Get your team in sync, no matter your location. Streamline processes, create team rituals, and
+            watch productivity soar.
+          </p>
+          <button type="button" class="button button--more">Learn more</button>
+
+          <div class="sponsors">
+            <img
+              src="./images/client-databiz.svg"
+              alt="databiz"
+              class="sponsors__img"
+            />
+            <img
+              src="./images/client-audiophile.svg"
+              alt="audiophile"
+              class="sponsors__img"
+            />
+            <img
+              src="./images/client-meet.svg"
+              alt="meet"
+              class="sponsors__img"
+            />
+            <img
+              src="./images/client-maker.svg"
+              alt="maker"
+              class="sponsors__img"
+            />
+          </div>
+        </article>
+
+        <aside class="aside">
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="./images/image-hero-mobile.png"
+              alt="image-hero-mobile"
+            />
+            <img
+              class="aside__img"
+              src="./images/image-hero-desktop.png"
+              alt="image-hero-desktop"
+            />
+          </picture>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="attribution">
+        <div>
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            class="attribution__link"
+          >
+            Frontend Mentor
+          </a>.
+        </div>
+
+        <div class="coded">
+          Coded by
+          <a
+            href="https://github.com/josemiguel02"
+            target="_blank"
+            class="coded__name"
+          >
+            @josemiguel02
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./src/js/app.js"></script>
+  </body>
+</html>
