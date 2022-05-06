@@ -48,7 +48,7 @@ Users should be able to:
 
 ## My process
 
-First I made the semantic HTML, I gave it classes with the BEM methodology, then I went on to design it with CSS, I added Flexbox, Grid,Custom properties, I went to the Responsive design and finally I ended up giving interactivity to the sidebar with Javascript.
+First I made the semantic HTML, I gave it classes with the BEM methodology, then I went on to design it with CSS, I added Flexbox, Grid, Custom properties, I went to the Responsive design and finally I ended up giving interactivity to the sidebar with Javascript.
 
 
 ### Built with
